@@ -9,7 +9,7 @@ class WillsApp extends App {
     return (
       <Container>
         <Page>
-          <Component />
+          <Component {...pageProps} />
         </Page>
       </Container>
     );
