@@ -11,7 +11,7 @@ const Meta = () => (
     />
     <link rel="stylesheet" href="/static/style.css" />
 
-    <title>Hi Will Fang</title>
+    <title>Hi Will Fang | Portfolio</title>
   </Head>
 );
 
