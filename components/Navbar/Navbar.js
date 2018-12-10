@@ -1,30 +1,27 @@
-import Link from "next/link";
+import { withRouter } from "next/router";
+import Link from "../ActiveLink/ActiveLink";
 
-const Navbar = () => (
-  <div className="paper-back">
-    <nav>
-      <div className="close">
-        <Link href="/">
-          <a>Home</a>
-        </Link>
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-        <Link href="/experience">
-          <a>Experience</a>
-        </Link>
-        <Link href="/portfolio">
-          <a>Portfolio</a>
-        </Link>
-        <Link href="/references">
-          <a>References</a>
-        </Link>
-        <Link href="/contact">
-          <a>Contact</a>
-        </Link>
-      </div>
-    </nav>
-  </div>
-);
+const Navbar = withRouter(({ router, children, ...props }) => (
+  <nav className="navbar">
+    <Link href="/" activeClassName="active">
+      <a className="navbar__link">Home</a>
+    </Link>
+    <Link href="/about" activeClassName="active">
+      <a className="navbar__link">About</a>
+    </Link>
+    <Link href="/experience" activeClassName="active">
+      <a className="navbar__link">Experience</a>
+    </Link>
+    <Link href="/portfolio" activeClassName="active">
+      <a className="navbar__link">Portfolio</a>
+    </Link>
+    <Link href="/references" activeClassName="active">
+      <a className="navbar__link">References</a>
+    </Link>
+    <Link href="/contact" activeClassName="active">
+      <a className="navbar__link">Contact</a>
+    </Link>
+  </nav>
+));
 
 export default Navbar;

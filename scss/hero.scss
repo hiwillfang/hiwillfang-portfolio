@@ -1,0 +1,14 @@
+/* ============================
+  HERO
+============================== */
+.hero {
+  text-align: center;
+
+  &__subtitle {
+    color: $color-teal;
+  }
+
+  &__img {
+    border-radius: 50%;
+  }
+}

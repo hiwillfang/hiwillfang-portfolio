@@ -1,6 +1,12 @@
 /* ============================
-  SCSS IMPORTS
+  GLOBAL STYLES
 ============================== */
 @import "./reset.scss";
 @import "./vars.scss";
 @import "./global.scss";
+
+/* ============================
+  COMPONENT STYLES
+============================== */
+@import "./navbar.scss";
+@import "./hero.scss";

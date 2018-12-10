@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import styled, { ThemeProvider, injectGlobal } from "styled-components";
 import Meta from "../Meta/Meta";
-import Navbar from "../Navbar/Navbar";
+import Header from "../Header/Header";
 
 // Global Theming
 const theme = {};
@@ -12,7 +12,7 @@ class Page extends Component {
       <ThemeProvider theme={theme}>
         <div>
           <Meta />
-          <Navbar />
+          <Header />
           <div>{this.props.children}</div>
         </div>
       </ThemeProvider>

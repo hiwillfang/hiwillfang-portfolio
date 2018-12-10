@@ -1,0 +1,61 @@
+/* ============================
+  NAVBAR
+============================== */
+.navbar {
+  padding: 1rem 0;
+  text-align: center;
+
+  &__link {
+    margin: 0 0.5rem;
+    position: relative;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
+    @media only screen and (min-width: $tablet) {
+      margin: 0 1rem;
+    }
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      border-bottom: 2px solid $color-teal;
+      bottom: 0;
+      width: 0;
+    }
+
+    &.active {
+      border-bottom: 2px solid $color-teal;
+
+      &:before,
+      &:after {
+        content: "";
+        position: absolute;
+        border-bottom: 0;
+      }
+    }
+
+    &:before {
+      left: 0;
+    }
+
+    &:after {
+      right: 0;
+    }
+
+    &:hover {
+      color: $color-grey;
+    }
+
+    &:hover:before,
+    &:hover:after {
+      width: 50%;
+    }
+
+    &:before,
+    &:after {
+      -webkit-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+    }
+  }
+}
