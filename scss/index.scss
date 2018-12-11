@@ -1,8 +1,13 @@
 /* ============================
-  HERO
+  INDEX
 ============================== */
 .hero {
+  height: 100vh;
   text-align: center;
+
+  @media only screen and (min-width: $mobile) {
+    height: auto;
+  }
 
   &__subtitle {
     color: $color-teal;
@@ -11,4 +16,8 @@
   &__img {
     border-radius: 50%;
   }
+}
+
+.content {
+  padding: 1rem 0;
 }

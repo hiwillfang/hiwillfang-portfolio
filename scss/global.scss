@@ -19,13 +19,15 @@ body {
   font-weight: normal;
   min-height: 100%;
   overflow-x: hidden;
+  position: relative;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 80%;
   margin: 0 auto;
+  text-align: center;
 }
 
 h1,
@@ -39,20 +41,33 @@ h6 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   padding: 1rem 0;
   text-align: center;
+
+  @media only screen and (min-width: $tablet) {
+    font-size: 4rem;
+  }
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+
+  @media only screen and (min-width: $tablet) {
+    font-size: 1.8rem;
+  }
 }
 
 p,
 a,
 ul,
 li {
-  font-size: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.6;
+
+  @media only screen and (min-width: $mobile) {
+    font-size: 1rem;
+  }
 
   @media only screen and (min-width: $tablet) {
     font-size: 2rem;
@@ -66,7 +81,11 @@ a {
 
 img {
   height: auto;
-  max-width: 100%;
+  max-width: 80%;
+
+  @media only screen and (min-width: $tablet) {
+    max-width: 100%;
+  }
 }
 
 section {
