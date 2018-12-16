@@ -20,7 +20,7 @@ class Index extends React.Component {
           </h2>
         </section>
         <section className="content">
-          <div className="container">
+          <div className="container-centered">
             <p>
               Hi, I'm Will Fang and I want to personally thank you for stopping
               by my site! Since you're already here, please have a look around

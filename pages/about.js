@@ -18,6 +18,96 @@ class About extends React.Component {
             <Cycler duration={4000} strings={strings} typewriter />
           </h2>
         </section>
+        <section className="about content">
+          <div className="container-left">
+            <h2 className="title-secondary">About The Developer...</h2>
+            <p>
+              Hi, I'm Will Fang! By day, I'm a full-time Front End Developer at
+              Red Ventures, which is one the largest performance digital
+              marketing companies in the world. My daily workflow consists of
+              working with the latest technologies available for the modern web
+              such as Vue, React, PHP, Node, AWS, Next.js, Hexo, ES6, Sass, and
+              other amazing tech depending on business needs.
+            </p>
+            <p>
+              I also have experience in consulting for and developing amazing
+              web experiences for some of the world's largest Fortune 100 and
+              500 companies, Remax and Keller Williams realtors, and small
+              businesses.
+            </p>
+            <h2 className="title-tertiary">About The Man...</h2>
+            <p>
+              When I'm not hard at work pushing pixels, you can find me planning
+              my next travel destination (world traveler), taking my photography
+              skills to the next level, hanging out at a local tech meet-up,
+              hiking, snorkeling, working out, or spending time with friends and
+              family.
+            </p>
+          </div>
+        </section>
+        <section className="skills content">
+          <div className="container-left">
+            <h2 className="title-tertiary">About My Skills...</h2>
+            <p>
+              <span>FRONT END : </span>
+              HTML5, Hexo, Next, Nuxt, Gatsby, GraphQL, Apollo
+            </p>
+            <p>
+              <span>Languages : </span>
+              JavaScript (ES6), PHP
+            </p>
+            <p>
+              <span>CSS Pre-Processors : </span>
+              Sass(scss), LESS
+            </p>
+            <p>
+              <span>CSS Libraries/Tools : </span>
+              Bootstrap, Material-UI, Susy 2, Materialize CSS, Bulma
+            </p>
+            <p>
+              <span>JS Frameworks/Libraries : </span>
+              Angular, Vue.js, React.js, AWS Amplify, jQuery
+            </p>
+            <p>
+              <span>Tools : </span>
+              Gulp.js, Webpack, Docker
+            </p>
+            <p>
+              <span>Dependency Management : </span>
+              Composer, Yarn, npm
+            </p>
+            <p>
+              <span>Design Tools : </span>
+              Sketch, Photoshop, Illustrator
+            </p>
+            <p>
+              <span>CMS : </span>
+              Wordpress, Netlify CMS
+            </p>
+            <p>
+              <span>Text Editors/IDE's : </span>
+              Visual Studio Code, PHP Storm, Sublime Text, Atom, Cloud 9 IDE
+            </p>
+            <p>
+              <span>AWS : </span>
+              S3, AppSync, IAM
+            </p>
+          </div>
+        </section>
+        <section className="opportunities content">
+          <div className="container-left">
+            <h2 className="title-tertiary">About Opportunities...</h2>
+            <p>
+              I relocated to Charlotte, NC as of July 2018 from Orlando, FL. I
+              have also been a part of a remotely distrubuted team for
+              approximately 2 years. I believe in setting goals and constantly
+              progressing my professioanl career, knowledge, and entertaining
+              all opportunites (no matter where that opportunity may be). I'm
+              always up for a challenge and looking for ways to expand my skills
+              as a tech professional, so don't hesitate to drop me a line!
+            </p>
+          </div>
+        </section>
       </>
     );
   }

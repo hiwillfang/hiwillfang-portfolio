@@ -1,8 +1,7 @@
 /* ============================
-  INDEX
+  HERO
 ============================== */
 .hero {
-  height: 100vh;
   text-align: center;
 
   @media only screen and (min-width: $mobile) {
@@ -16,8 +15,4 @@
   &__img {
     border-radius: 50%;
   }
-}
-
-.content {
-  padding: 1rem 0;
 }

@@ -18,16 +18,31 @@ body {
   font-size: $base-font;
   font-weight: normal;
   min-height: 100%;
-  overflow-x: hidden;
+  margin: 0;
   position: relative;
+  overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
 
-.container {
-  max-width: 80%;
+.container-centered {
+  max-width: 90%;
   margin: 0 auto;
   text-align: center;
+
+  @media only screen and (min-width: $desktop) {
+    max-width: 1002px;
+  }
+}
+
+.container-left {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: left;
+
+  @media only screen and (min-width: $desktop) {
+    max-width: 1002px;
+  }
 }
 
 h1,
@@ -56,6 +71,14 @@ h2 {
   @media only screen and (min-width: $tablet) {
     font-size: 1.8rem;
   }
+
+  &.title-secondary {
+    padding: 3rem 0 1rem 0;
+  }
+
+  &.title-tertiary {
+    padding: 2rem 0 1rem 0;
+  }
 }
 
 p,
@@ -71,6 +94,29 @@ li {
 
   @media only screen and (min-width: $tablet) {
     font-size: 2rem;
+  }
+}
+
+p {
+  font-size: 1.4rem;
+
+  @media only screen and (min-width: $mobile) {
+    font-size: 1.8rem;
+  }
+
+  @media only screen and (min-width: $tablet) {
+    font-size: 2rem;
+  }
+}
+
+span {
+  font-family: "Permanent Marker", cursive;
+  font-weight: normal;
+  font-size: 1.2rem;
+  display: block;
+
+  @media only screen and (min-width: $tablet) {
+    display: inline;
   }
 }
 
@@ -90,4 +136,8 @@ img {
 
 section {
   padding: 3rem 0;
+
+  &.content {
+    padding: 1rem 0;
+  }
 }
