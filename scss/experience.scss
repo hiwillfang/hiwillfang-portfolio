@@ -1,0 +1,47 @@
+/* ============================
+  EXPERIENCE STYLES
+============================== */
+.experience {
+  .title-secondary {
+    padding-bottom: 0;
+  }
+
+  p {
+    padding: 1rem 0;
+    line-height: 1.4;
+  }
+
+  &__block {
+    margin-bottom: 2rem;
+  }
+
+  &__title {
+    padding: 0.5rem 0 0 0;
+    color: $color-teal;
+
+    @media only screen and (min-width: $desktop) {
+      padding: 0 0 0 1rem;
+    }
+  }
+
+  &__date {
+    padding: 0.5rem 0 0 0;
+    color: $color-purple;
+  }
+
+  &__badges {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__badges-tag {
+    font-family: "Permanent Marker", cursive;
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: $color-purple;
+    border: 2px solid $color-purple;
+    border-radius: 5px;
+    padding: 0.3rem 0.4rem;
+    margin: 0.5rem 0.5rem 0 0;
+  }
+}
