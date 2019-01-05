@@ -1,4 +1,5 @@
 import { Cycler } from "react-text-scrambler";
+import Link from "next/link";
 import "../scss/style.scss";
 
 class Index extends React.Component {
@@ -7,7 +8,7 @@ class Index extends React.Component {
       "Front End Developer",
       "Digital Nomad",
       "JavaScript Enthusiast",
-      "UX Activist"
+      "Web Consultant"
     ];
 
     return (
@@ -18,16 +19,52 @@ class Index extends React.Component {
           <h2 className="hero__subtitle">
             <Cycler duration={4000} strings={strings} typewriter />
           </h2>
+          <Link href="/">
+            <a>
+              <img
+                className="hero__icon"
+                src="/static/001-pdf.png"
+                alt="Resume Icon"
+              />
+            </a>
+          </Link>
+          <Link href="https://www.linkedin.com/in/william-fang-1a4306a1/">
+            <a target="_blank">
+              <img
+                className="hero__icon"
+                src="/static/002-linkedin.png"
+                alt="Linkedin Icon"
+              />
+            </a>
+          </Link>
+          <Link href="https://twitter.com/hiwillfang">
+            <a target="_blank">
+              <img
+                className="hero__icon"
+                src="/static/003-twitter.png"
+                alt="Twitter Icon"
+              />
+            </a>
+          </Link>
+          <Link href="https://www.instagram.com/hiwillfang/">
+            <a target="_blank">
+              <img
+                className="hero__icon"
+                src="/static/004-instagram.png"
+                alt="Instagram Icon"
+              />
+            </a>
+          </Link>
         </section>
         <section className="content">
           <div className="container-centered">
             <p>
               Hi, I'm Will Fang and I want to personally thank you for stopping
-              by my site! Since you're already here, please have a look around
-              and get to know me a little better! If my blinding good looks
-              don't get to you, I think you'll find my skills, background, work
-              achievements, and personality a definite winner! If not, then
-              you're impossible. Just Kidding! Enjoy!
+              by my site! Since you're here, please have a look around and get
+              to know who I am and what I do! If my blinding good looks don't
+              get to you, I think you'll find my skills, background, work
+              achievements, and personality impressive! Sit back and relax
+              because you are about to embark on the Will Fang journey... Enjoy!
             </p>
           </div>
         </section>

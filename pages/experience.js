@@ -1,4 +1,5 @@
 import { Cycler } from "react-text-scrambler";
+import Link from "next/link";
 import "../scss/style.scss";
 
 class Experience extends React.Component {
@@ -26,6 +27,42 @@ class Experience extends React.Component {
           <h2 className="hero__subtitle">
             <Cycler duration={4000} strings={strings} typewriter />
           </h2>
+          <Link href="/">
+            <a>
+              <img
+                className="hero__icon"
+                src="/static/001-pdf.png"
+                alt="Resume Icon"
+              />
+            </a>
+          </Link>
+          <Link href="https://www.linkedin.com/in/william-fang-1a4306a1/">
+            <a target="_blank">
+              <img
+                className="hero__icon"
+                src="/static/002-linkedin.png"
+                alt="Linkedin Icon"
+              />
+            </a>
+          </Link>
+          <Link href="https://twitter.com/hiwillfang">
+            <a target="_blank">
+              <img
+                className="hero__icon"
+                src="/static/003-twitter.png"
+                alt="Twitter Icon"
+              />
+            </a>
+          </Link>
+          <Link href="https://www.instagram.com/hiwillfang/">
+            <a target="_blank">
+              <img
+                className="hero__icon"
+                src="/static/004-instagram.png"
+                alt="Instagram Icon"
+              />
+            </a>
+          </Link>
         </section>
         <section className="experience content">
           <div className="container-left">
@@ -118,12 +155,12 @@ class Experience extends React.Component {
                   (Senior Web Consultant)
                 </span>
               </h2>
-              <h3 className="experience__date">January 2017 - March 2018</h3>
+              <h3 className="experience__date">September 2017 - March 2018</h3>
               <p>
-                Liason responsible for working directly with affiliate partners
-                to develop, test, and validate user interfaces against
-                accessibility and optimization requirements. Other
-                responsibilities included organizing and documenting
+                Contracted liason responsible for working directly with
+                affiliate partners to develop, test, and validate user
+                interfaces against accessibility and optimization requirements.
+                Other responsibilities included organizing and documenting
                 needs/requirements of web projects, reporting key performance
                 indicators, partnership meetings, and delegating technical scope
                 and budget requirements to engineering team, and reporting to
@@ -156,6 +193,8 @@ class Experience extends React.Component {
                 <span className="experience__badges-tag">Node</span>
                 <span className="experience__badges-tag">NPM</span>
                 <span className="experience__badges-tag">Composer</span>
+                <span className="experience__badges-tag">Angular.js</span>
+                <span className="experience__badges-tag">Ionic</span>
                 <span className="experience__badges-tag">Photoshop</span>
                 <span className="experience__badges-tag">Bitbucket</span>
                 <span className="experience__badges-tag">MySQL</span>

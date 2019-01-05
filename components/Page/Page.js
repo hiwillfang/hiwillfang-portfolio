@@ -15,7 +15,6 @@ class Page extends Component {
           <Meta />
           <Header />
           <div>{this.props.children}</div>
-          <Footer />
         </>
       </ThemeProvider>
     );

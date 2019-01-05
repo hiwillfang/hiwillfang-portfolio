@@ -1,4 +1,5 @@
 import { Cycler } from "react-text-scrambler";
+import Link from "next/link";
 import "../scss/style.scss";
 
 class About extends React.Component {
@@ -17,6 +18,42 @@ class About extends React.Component {
           <h2 className="hero__subtitle">
             <Cycler duration={4000} strings={strings} typewriter />
           </h2>
+          <Link href="/">
+            <a>
+              <img
+                className="hero__icon"
+                src="/static/001-pdf.png"
+                alt="Resume Icon"
+              />
+            </a>
+          </Link>
+          <Link href="https://www.linkedin.com/in/william-fang-1a4306a1/">
+            <a target="_blank">
+              <img
+                className="hero__icon"
+                src="/static/002-linkedin.png"
+                alt="Linkedin Icon"
+              />
+            </a>
+          </Link>
+          <Link href="https://twitter.com/hiwillfang">
+            <a target="_blank">
+              <img
+                className="hero__icon"
+                src="/static/003-twitter.png"
+                alt="Twitter Icon"
+              />
+            </a>
+          </Link>
+          <Link href="https://www.instagram.com/hiwillfang/">
+            <a target="_blank">
+              <img
+                className="hero__icon"
+                src="/static/004-instagram.png"
+                alt="Instagram Icon"
+              />
+            </a>
+          </Link>
         </section>
         <section className="about content">
           <div className="container-left">
@@ -39,7 +76,7 @@ class About extends React.Component {
             <p>
               When I'm not hard at work pushing pixels, you can find me planning
               my next travel destination (world traveler), taking my photography
-              skills to the next level, hanging out at a local tech meet-up,
+              skills to the next level, hanging out at local tech meet-ups,
               hiking, snorkeling, working out, or spending time with friends and
               family.
             </p>
@@ -47,7 +84,7 @@ class About extends React.Component {
         </section>
         <section className="skills content">
           <div className="container-left">
-            <h2 className="title-tertiary">About My Skills...</h2>
+            <h2 className="title-tertiary">About The Skills...</h2>
             <p>
               <span>FRONT END : </span>
               HTML5, Hexo, Next, Nuxt, Gatsby, GraphQL, Apollo
@@ -90,13 +127,13 @@ class About extends React.Component {
             </p>
             <p>
               <span>AWS : </span>
-              S3, AppSync, IAM
+              S3, AppSync, IAM, Cognito Auth
             </p>
           </div>
         </section>
         <section className="opportunities content">
           <div className="container-left">
-            <h2 className="title-tertiary">About Opportunities...</h2>
+            <h2 className="title-tertiary">About The Opportunities...</h2>
             <p>
               I relocated to Charlotte, NC as of July 2018 from Orlando, FL. I
               have also been a part of a remotely distrubuted team for

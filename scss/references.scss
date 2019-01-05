@@ -1,0 +1,50 @@
+/* ============================
+  REFERENCES STYLES
+============================== */
+
+.references {
+  .title-secondary {
+    padding: 1rem 0;
+  }
+
+  &__person {
+    display: block;
+    padding-bottom: 1rem;
+
+    @media only screen and (min-width: $tablet) {
+      align-items: center;
+      display: flex;
+    }
+  }
+
+  &__img {
+    border-radius: 50%;
+    margin-right: 1rem;
+    max-width: 100px;
+  }
+
+  &__block {
+    margin-bottom: 4rem;
+    text-align: center;
+
+    @media only screen and (min-width: $tablet) {
+      text-align: left;
+    }
+  }
+
+  &__title {
+    color: $color-teal;
+    display: block;
+    padding-top: 0.5rem;
+  }
+
+  &__contact {
+    color: $color-purple;
+    display: block;
+    padding-top: 0.5rem;
+  }
+
+  p {
+    line-height: 1.2;
+  }
+}
