@@ -118,7 +118,7 @@ class Experience extends React.Component {
                   (Senior Web Consultant)
                 </span>
               </h2>
-              <h3 className="experience__date">January 2017 - January 2018</h3>
+              <h3 className="experience__date">January 2017 - March 2018</h3>
               <p>
                 Liason responsible for working directly with affiliate partners
                 to develop, test, and validate user interfaces against
