@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import styled, { ThemeProvider, injectGlobal } from "styled-components";
 import Meta from "../Meta/Meta";
 import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
 
 // Global Theming
 const theme = {};

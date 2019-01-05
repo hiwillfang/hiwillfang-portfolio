@@ -8,8 +8,6 @@ require("dotenv").config();
 const path = require("path");
 const dotEnv = require("dotenv-webpack");
 
-// module.exports = withSass(withImages());
-
 module.exports = withSass(
   withImages({
     webpack: config => {

@@ -1,11 +1,10 @@
-# Build Output
-dist
-.next
-.vscode
+# dependencies
+/node_modules
+# production
+/out
+/build
+/.next
+/.next-export
+# misc
 .DS_Store
-.env
-
-# Dependencies
-node_modules/
-package-lock.json
-config.json
+npm-debug.log*
