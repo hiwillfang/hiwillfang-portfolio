@@ -12,9 +12,6 @@ const Navbar = withRouter(({ router, children, ...props }) => (
     <Link href="/experience" activeClassName="active">
       <a className="navbar__link">Experience</a>
     </Link>
-    <Link href="/portfolio" activeClassName="active">
-      <a className="navbar__link">Portfolio</a>
-    </Link>
     <Link href="/references" activeClassName="active">
       <a className="navbar__link">References</a>
     </Link>

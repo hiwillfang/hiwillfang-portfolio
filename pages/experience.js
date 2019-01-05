@@ -76,11 +76,12 @@ class Experience extends React.Component {
               </h2>
               <h3 className="experience__date">December 2016 - June 2018</h3>
               <p>
-                Develop, test, and deploy production-ready applications in the
-                deregulated energy sector utilizing the latest web technologies.
-                Expand my knowledge of vanilla JavaScript, JS
-                libraries/frameworks, consuming API data for various product
-                catalogs, and working in a serverless environment.
+                Developed custom themed Wordpress applications and headless CMS
+                applications for various Fortune 100 and 500 companies in a
+                remotely distributed agile development environment. Other
+                responsibilities included client calls, constructing business
+                document requirements, and working closely with our creative and
+                business consulting teams.
               </p>
               <div className="experience__badges">
                 <span className="experience__badges-tag">HTML5</span>
@@ -106,6 +107,95 @@ class Experience extends React.Component {
                 <span className="experience__badges-tag">MySQL</span>
                 <span className="experience__badges-tag">Basecamp</span>
                 <span className="experience__badges-tag">Jira</span>
+                <span className="experience__badges-tag">Slack</span>
+              </div>
+            </div>
+
+            <div className="experience__block">
+              <h2 className="title-secondary">
+                Digital Media Solutions Group
+                <span className="experience__title">
+                  (Senior Web Consultant)
+                </span>
+              </h2>
+              <h3 className="experience__date">January 2017 - January 2018</h3>
+              <p>
+                Liason responsible for working directly with affiliate partners
+                to develop, test, and validate user interfaces against
+                accessibility and optimization requirements. Other
+                responsibilities included organizing and documenting
+                needs/requirements of web projects, reporting key performance
+                indicators, partnership meetings, and delegating technical scope
+                and budget requirements to engineering team, and reporting to
+                stakeholders.
+              </p>
+            </div>
+
+            <div className="experience__block">
+              <h2 className="title-secondary">
+                Chatter Buzz Media
+                <span className="experience__title">(Front End Developer)</span>
+              </h2>
+              <h3 className="experience__date">August 2016 - December 2016</h3>
+              <p>
+                Developed custom themed Wordpress applications and hybrid mobile
+                applications for various companies and small businesses
+                including Lennar Homes, Orlando Sheriffs Department, and the
+                Orange County Tax Collector.
+              </p>
+              <div className="experience__badges">
+                <span className="experience__badges-tag">HTML5</span>
+                <span className="experience__badges-tag">LESS</span>
+                <span className="experience__badges-tag">JavaScript</span>
+                <span className="experience__badges-tag">jQuery</span>
+                <span className="experience__badges-tag">PHP</span>
+                <span className="experience__badges-tag">Wordpress</span>
+                <span className="experience__badges-tag">Bootstrap (v3)</span>
+                <span className="experience__badges-tag">Gulp</span>
+                <span className="experience__badges-tag">Git</span>
+                <span className="experience__badges-tag">Node</span>
+                <span className="experience__badges-tag">NPM</span>
+                <span className="experience__badges-tag">Composer</span>
+                <span className="experience__badges-tag">Photoshop</span>
+                <span className="experience__badges-tag">Bitbucket</span>
+                <span className="experience__badges-tag">MySQL</span>
+                <span className="experience__badges-tag">Basecamp</span>
+                <span className="experience__badges-tag">Asana</span>
+                <span className="experience__badges-tag">Slack</span>
+              </div>
+            </div>
+
+            <div className="experience__block">
+              <h2 className="title-secondary">
+                BrandCo
+                <span className="experience__title">(Front End Developer)</span>
+              </h2>
+              <h3 className="experience__date">January 2016 - August 2016</h3>
+              <p>
+                Develop custom web applications and Wordpress multi-site
+                applications for both Keller Williams and Remax Realtors,
+                Brokers, and offices that allowed real estate focused
+                applications to integrate with custom IDX data solutions. Other
+                responsibilities included attending client calls, kick-off
+                meetings, attending tradeshows, working closely with web
+                designers, project managers, and support staff.
+              </p>
+              <div className="experience__badges">
+                <span className="experience__badges-tag">HTML5</span>
+                <span className="experience__badges-tag">sass</span>
+                <span className="experience__badges-tag">Materialize CSS</span>
+                <span className="experience__badges-tag">JavaScript</span>
+                <span className="experience__badges-tag">jQuery</span>
+                <span className="experience__badges-tag">PHP</span>
+                <span className="experience__badges-tag">Wordpress</span>
+                <span className="experience__badges-tag">Grunt.js</span>
+                <span className="experience__badges-tag">Git</span>
+                <span className="experience__badges-tag">Node</span>
+                <span className="experience__badges-tag">NPM</span>
+                <span className="experience__badges-tag">Photoshop</span>
+                <span className="experience__badges-tag">MySQL</span>
+                <span className="experience__badges-tag">Basecamp</span>
+                <span className="experience__badges-tag">Trello</span>
                 <span className="experience__badges-tag">Slack</span>
               </div>
             </div>
