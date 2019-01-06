@@ -86,47 +86,47 @@ class About extends React.Component {
           <div className="container-left">
             <h2 className="title-tertiary">About The Skills...</h2>
             <p>
-              <span>FRONT END : </span>
+              <span className="skills__group">FRONT END : </span>
               HTML5, Hexo, Next, Nuxt, Gatsby, GraphQL, Apollo
             </p>
             <p>
-              <span>Languages : </span>
+              <span className="skills__group">Languages : </span>
               JavaScript (ES6), PHP
             </p>
             <p>
-              <span>CSS Pre-Processors : </span>
+              <span className="skills__group">CSS Pre-Processors : </span>
               Sass(scss), LESS
             </p>
             <p>
-              <span>CSS Libraries/Tools : </span>
+              <span className="skills__group">CSS Libraries/Tools : </span>
               Bootstrap, Material-UI, Susy 2, Materialize CSS, Bulma
             </p>
             <p>
-              <span>JS Frameworks/Libraries : </span>
+              <span className="skills__group">JS Frameworks/Libraries : </span>
               Angular, Vue.js, React.js, AWS Amplify, jQuery
             </p>
             <p>
-              <span>Tools : </span>
+              <span className="skills__group">Tools : </span>
               Gulp.js, Webpack, Docker
             </p>
             <p>
-              <span>Dependency Management : </span>
+              <span className="skills__group">Dependency Management : </span>
               Composer, Yarn, npm
             </p>
             <p>
-              <span>Design Tools : </span>
+              <span className="skills__group">Design Tools : </span>
               Sketch, Photoshop, Illustrator
             </p>
             <p>
-              <span>CMS : </span>
+              <span className="skills__group">CMS : </span>
               Wordpress, Netlify CMS
             </p>
             <p>
-              <span>Text Editors/IDE's : </span>
+              <span className="skills__group">Text Editors/IDE's : </span>
               Visual Studio Code, PHP Storm, Sublime Text, Atom, Cloud 9 IDE
             </p>
             <p>
-              <span>AWS : </span>
+              <span className="skills__group">AWS : </span>
               S3, AppSync, IAM, Cognito Auth
             </p>
           </div>

@@ -4,12 +4,7 @@ import "../scss/style.scss";
 
 class Contact extends React.Component {
   render() {
-    const strings = [
-      "Front End Developer",
-      "Digital Nomad",
-      "JavaScript Enthusiast",
-      "Web Consultant"
-    ];
+    const strings = ["Email Me", "Call Me", "Follow Me"];
 
     return (
       <>
