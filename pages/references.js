@@ -4,7 +4,13 @@ import "../scss/style.scss";
 
 class References extends React.Component {
   render() {
-    const strings = ["Reliable", "Outgoing", "Forward Thinking", "Personable"];
+    const strings = [
+      "Reliable",
+      "Outgoing",
+      "Forward Thinking",
+      "Personable",
+      "Charismatic"
+    ];
 
     return (
       <>

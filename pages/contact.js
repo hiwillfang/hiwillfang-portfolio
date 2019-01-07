@@ -66,9 +66,31 @@ class Contact extends React.Component {
           </div>
         </section>
         <section className="contact content">
-          <div className="container-left">
-            <h2 className="title-secondary">Email : will@hiwillfang.com</h2>
-            <h2 className="title-secondary">Phone : (407) 493-9411</h2>
+          <div className="container-centered">
+            <Link href="mailto:will@hiwillfang.com">
+              <a>
+                <h2 className="title-secondary">
+                  <img
+                    src="/static/006-mail.png"
+                    alt="Email Icon"
+                    className="contact__icon"
+                  />
+                  Email : will@hiwillfang.com
+                </h2>
+              </a>
+            </Link>
+            <Link href="tel:4074939411">
+              <a>
+                <h2 className="title-secondary">
+                  <img
+                    src="/static/005-phone.png"
+                    alt="Phone Icon"
+                    className="contact__icon"
+                  />
+                  Phone : (407) 493-9411
+                </h2>
+              </a>
+            </Link>
           </div>
         </section>
       </>
